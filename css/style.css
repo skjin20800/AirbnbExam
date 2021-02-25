@@ -1,0 +1,168 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url('../images/background.jpg');
+    background-size:100% 100%;
+    height:880px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 50px;
+    
+   
+}
+
+
+.nav__logo{
+    
+    width: 30%;
+    height: 100px;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+li{
+    margin-left: 25px;
+    list-style-type: none; /*● 없애기 ■은 square*/
+    font-size: 15px;
+    font-weight: 800;
+    color: white;
+
+}
+
+.nav__menu{
+    width: 70%;
+    margin-top: 1%;
+    margin-right: 5%;
+}
+
+.search-form{
+    margin-left: 10%;
+    margin-top: 5%;
+    
+}
+
+table{
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    width: 500px;
+}
+th,td {
+    font-size: 20px;
+    font-weight: 900;
+    border: none;
+    padding:15px;
+}
+
+.btn_1{
+    background-color: #E51E56;
+                border: 0;
+                color: white;
+                cursor: pointer; /* 마우스 커서 올렸을때 효과*/
+                font-size: 15px;
+                font-weight: 700;
+                border-radius: 6px; /* 버튼 외부 곡선표현*/
+                outline: 0; /*클릭시 바깥라인 안생기게*/
+                height: 45px;
+                width: 70px;
+                box-shadow: 0 2px 2px 0 black; /* 버튼그림자 12시 3시 6시 9시방향 값 설정*/
+}
+
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+}
+
+.first-sec{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+}
+
+.l-title{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.sec1-main{
+    border: 1px solid rgb(210, 210, 210);
+    border-radius: 10px;
+    width: 25%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 1%;
+}
+   
+.sec1-img{width: 30%;}
+
+.sec1-img img{
+    border-radius: 10px;
+}
+.sec1-text{
+    width: 70%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.sec2-img img{
+    border-radius: 30px;
+    margin-bottom: 40px;
+}
+
+.sec3-img{
+    display: flex;
+    justify-content: space-around;
+}
+
+.mt20{
+    margin-top: 20px;
+}
+
+.mb20{
+    margin-bottom: 20px;
+}
+
+.home-box{
+    display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr; /*비율이 1:1:1:1*/
+                grid-gap: 10px;
+                margin: 0 10px;
+}
+
+.xs-title{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 10px;
+    color: gray;
+}
+
+.m-title{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.star-point{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 10px;
+    
+}
