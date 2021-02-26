@@ -12,7 +12,9 @@ public class User {
     private Long id;
     private String username;
     private String tag;
-    private Integer pic;
+    private Integer mainPic;
+    private Integer profilePic;
+    private Integer replyPic;
 
 
 }

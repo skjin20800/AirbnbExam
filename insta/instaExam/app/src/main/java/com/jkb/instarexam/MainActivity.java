@@ -33,8 +33,10 @@ public class MainActivity extends AppCompatActivity {
 
         List<User> users = new ArrayList<>();
         for (int i=1; i<20; i++){
-            users.add(new User(1L,"IU", null, R.drawable.iu));
+            users.add(new User(1L,"IU", null, R.drawable.iu,R.drawable.iu2, R.drawable.iu3));
         }
+
+
 
         LinearLayoutManager manager = new LinearLayoutManager(this,RecyclerView.HORIZONTAL,false);
         rvStory = findViewById(R.id.rv_story);
@@ -48,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
         List<User> users = new ArrayList<>();
         for (int i=1; i<20; i++){
-            users.add(new User(1L,"IU", null, R.drawable.iu));
+            users.add(new User(1L,"IU", null, R.drawable.iu,R.drawable.iu2, R.drawable.iu3));
         }
 
         LinearLayoutManager manager = new LinearLayoutManager(this,RecyclerView.VERTICAL,false);

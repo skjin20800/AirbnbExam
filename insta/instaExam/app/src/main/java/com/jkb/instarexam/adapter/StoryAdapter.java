@@ -88,7 +88,7 @@ public class StoryAdapter extends RecyclerView.Adapter<StoryAdapter.MyViewHolder
         }
 
         public void setItem(User user){
-            ivPic.setImageResource(user.getPic());
+            ivPic.setImageResource(user.getProfilePic());
             tvUsername.setText(user.getUsername());
 
         }

@@ -92,10 +92,10 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.MyViewHolder>{
         }
 
         public void setItem(User user){
-            ivUserPic.setImageResource(user.getPic());
-            ivLikePic.setImageResource(user.getPic());
-            ivMainPic.setImageResource(user.getPic());
-            ivBarPic.setImageResource(user.getPic());
+            ivUserPic.setImageResource(user.getProfilePic());
+            ivLikePic.setImageResource(user.getReplyPic());
+            ivMainPic.setImageResource(user.getMainPic());
+            ivBarPic.setImageResource(user.getProfilePic());
 
             tvBarId.setText(user.getUsername());
             tvLikeUsername.setText(user.getUsername());
